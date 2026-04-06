@@ -1,0 +1,12 @@
+[
+    {
+        "alias": null,
+        "id": 1,
+        "domain": "myapp.test",
+        "environments": [
+            "Default Environment"
+        ],
+        "creationTimeUnixTimeInMs": 1775474766926,
+        "modificationTimeUnixTimeInMs": 1775474766926
+    }
+]
