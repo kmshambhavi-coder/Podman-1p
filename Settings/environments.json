@@ -1,0 +1,46 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/environments/2",
+        "id": 0,
+        "system": false,
+        "displayName": "podman-1p-dummy-environment",
+        "description": "podman-1p-dummy-environment",
+        "contact": "test",
+        "contactEmails": "dummy@test.com",
+        "contactPhone": "01234567890",
+        "retentionDuration": 3,
+        "dynamicParameters": [
+            {
+                "value": "podman-1p-dynamic-parameter",
+                "dynamicParameterId": 1,
+                "environmentId": 2
+            }
+        ],
+        "aliasesJson": "[\"qwerty\"]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/environments/1",
+        "id": 0,
+        "system": true,
+        "displayName": "Default Environment",
+        "description": "Default Environment",
+        "contact": "N/A",
+        "contactEmails": "example@example.com",
+        "contactPhone": "0000000000",
+        "retentionDuration": 3,
+        "dynamicParameters": [
+            {
+                "value": "podman-1p-dynamic-parameter",
+                "dynamicParameterId": 1,
+                "environmentId": 1
+            }
+        ],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    }
+]
