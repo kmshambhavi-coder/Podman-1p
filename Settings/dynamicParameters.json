@@ -1,0 +1,10 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/dynamicParameters/1",
+        "id": 1,
+        "displayName": "podman-1p-dynamic-parameter",
+        "parameterType": "String",
+        "defaultValue": "podman-1p-dynamic-parameter",
+        "optionalValuesJson": "[]"
+    }
+]
