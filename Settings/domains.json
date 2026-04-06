@@ -1,0 +1,26 @@
+[
+    {
+        "alias": "projects/project/locations/location/instances/instance/soarDomains/3",
+        "id": 3,
+        "domain": "myapp2.test",
+        "environments": "[\"podman-1p-dummy-environment\",\"Default Environment\"]",
+        "creationTimeUnixTimeInMs": 0,
+        "modificationTimeUnixTimeInMs": 0
+    },
+    {
+        "alias": "projects/project/locations/location/instances/instance/soarDomains/2",
+        "id": 2,
+        "domain": "myapp1.test",
+        "environments": "[\"podman-1p-dummy-environment\"]",
+        "creationTimeUnixTimeInMs": 0,
+        "modificationTimeUnixTimeInMs": 0
+    },
+    {
+        "alias": "projects/project/locations/location/instances/instance/soarDomains/1",
+        "id": 1,
+        "domain": "myapp.test",
+        "environments": "[\"Default Environment\"]",
+        "creationTimeUnixTimeInMs": 0,
+        "modificationTimeUnixTimeInMs": 0
+    }
+]
