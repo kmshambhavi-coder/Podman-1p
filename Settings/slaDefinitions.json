@@ -1,0 +1,59 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/4",
+        "id": 4,
+        "slaType": "AlertPriority",
+        "slaTypeValue": "[\"High\"]",
+        "slaPeriod": 22.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "podman-2p-dynamic-parameter",
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/3",
+        "id": 3,
+        "slaType": "CasePriority",
+        "slaTypeValue": "[\"Critical\"]",
+        "slaPeriod": 4.0,
+        "slaPeriodTimeUnit": "Days",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Days",
+        "environments": [
+            "podman-2p-dynamic-parameter",
+            "podman-1p-dummy-environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/2",
+        "id": 2,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Investigation\",\"Improvement\",\"Research\"]",
+        "slaPeriod": 20.0,
+        "slaPeriodTimeUnit": "Hours",
+        "criticalSlaPeriod": 5.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/1",
+        "id": 1,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 50.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 10.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment",
+            "podman-1p-dummy-environment",
+            "podman-2p-dynamic-parameter"
+        ]
+    }
+]
