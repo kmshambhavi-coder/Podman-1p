@@ -1,0 +1,18 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/soarNetworks/2",
+        "id": 2,
+        "displayName": "Network-two",
+        "address": "192.168.1.1/24",
+        "environmentsJson": "[\"podman-2p-dynamic-parameter\",\"podman-1p-dummy-environment\"]",
+        "priority": 5
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/soarNetworks/1",
+        "id": 1,
+        "displayName": "Network-one",
+        "address": "192.168.1.0/24",
+        "environmentsJson": "[\"Default Environment\",\"podman-1p-dummy-environment\",\"podman-2p-dynamic-parameter\"]",
+        "priority": 1
+    }
+]
