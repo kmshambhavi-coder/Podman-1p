@@ -1,0 +1,15 @@
+[
+    {
+        "value": "Data Exfiltration",
+        "name": "podman-1p-case-tag-4",
+        "propertyName": "Entity.Environment",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 2,
+        "id": 6,
+        "creationTimeUnixTimeInMs": 1775469460187,
+        "modificationTimeUnixTimeInMs": 1775469460187
+    }
+]
