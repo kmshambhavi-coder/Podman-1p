@@ -1,0 +1,38 @@
+[
+    {
+        "entityIdentifier": "podman-1p-customlist-3",
+        "category": "category 3",
+        "forDBMigration": false,
+        "environments": [
+            "podman-1p-dummy-environment",
+            "podman-2p-dynamic-parameter"
+        ],
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1775550951785,
+        "modificationTimeUnixTimeInMs": 1775550951785
+    },
+    {
+        "entityIdentifier": "podman-1p-custom-list-2",
+        "category": "podman-2p-test",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment"
+        ],
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1775550951847,
+        "modificationTimeUnixTimeInMs": 1775550951847
+    },
+    {
+        "entityIdentifier": "podman-1p-customlist-1",
+        "category": "podman-1p-test",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment",
+            "podman-1p-dummy-environment",
+            "podman-2p-dynamic-parameter"
+        ],
+        "id": 6,
+        "creationTimeUnixTimeInMs": 1775550951902,
+        "modificationTimeUnixTimeInMs": 1775550951902
+    }
+]
