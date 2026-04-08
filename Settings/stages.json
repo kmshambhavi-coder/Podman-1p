@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Triage",
+        "order": 1,
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "Assessment",
+        "order": 2,
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "Investigation",
+        "order": 3,
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "Incident",
+        "order": 4,
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "Improvement",
+        "order": 5,
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "Research",
+        "order": 6,
+        "id": 6,
+        "creationTimeUnixTimeInMs": 1775458969054,
+        "modificationTimeUnixTimeInMs": 1775458969054
+    },
+    {
+        "name": "podman_upgraded-legacy-case-stages1",
+        "order": 7,
+        "id": 7,
+        "creationTimeUnixTimeInMs": 1775636645365,
+        "modificationTimeUnixTimeInMs": 1775636645365
+    },
+    {
+        "name": "podman_upgraded-legacy-case-stages2",
+        "order": 8,
+        "id": 8,
+        "creationTimeUnixTimeInMs": 1775636661553,
+        "modificationTimeUnixTimeInMs": 1775636661553
+    },
+    {
+        "name": "podman_upgraded-legacy-case-stages3",
+        "order": 9,
+        "id": 9,
+        "creationTimeUnixTimeInMs": 1775636674862,
+        "modificationTimeUnixTimeInMs": 1775636674862
+    }
+]
