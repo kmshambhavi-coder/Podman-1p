@@ -1,0 +1,83 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/environments/3",
+        "id": 0,
+        "system": false,
+        "displayName": "Podman-1p-env-002",
+        "description": "Podman-1p-env-002",
+        "contact": "1234567890",
+        "contactEmails": "testenv@domail.com",
+        "contactPhone": "01234565656",
+        "retentionDuration": 3,
+        "dynamicParameters": [
+            {
+                "value": "dynamic parameter 001",
+                "dynamicParameterId": 1,
+                "environmentId": 3
+            },
+            {
+                "value": "DP1,DP2, #$%, DP24#",
+                "dynamicParameterId": 2,
+                "environmentId": 3
+            }
+        ],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/environments/2",
+        "id": 0,
+        "system": false,
+        "displayName": "Podman-1p-env-001",
+        "description": "Description-Podman-1p-env-001",
+        "contact": "Test-contact name ",
+        "contactEmails": "test001@domain.com",
+        "contactPhone": "0123456789",
+        "retentionDuration": 3,
+        "dynamicParameters": [
+            {
+                "value": "dynamic parameter 001",
+                "dynamicParameterId": 1,
+                "environmentId": 2
+            },
+            {
+                "value": "DP1,DP2, #$%, DP24#",
+                "dynamicParameterId": 2,
+                "environmentId": 2
+            }
+        ],
+        "aliasesJson": "[\"Aliases-Podman-1p-env-001\"]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/environments/1",
+        "id": 0,
+        "system": true,
+        "displayName": "Default Environment",
+        "description": "Default Environment",
+        "contact": "N/A",
+        "contactEmails": "example@example.com",
+        "contactPhone": "0000000000",
+        "retentionDuration": 3,
+        "dynamicParameters": [
+            {
+                "value": "dynamic parameter 001",
+                "dynamicParameterId": 1,
+                "environmentId": 1
+            },
+            {
+                "value": "DP1,DP2, #$%, DP24#",
+                "dynamicParameterId": 2,
+                "environmentId": 1
+            }
+        ],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    }
+]
