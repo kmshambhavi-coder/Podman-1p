@@ -1,0 +1,18 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/dynamicParameters/2",
+        "id": 2,
+        "displayName": "Podman-1p-dyanamic-parameter-002",
+        "parameterType": "List",
+        "defaultValue": "DP1,DP2, #$%, DP24#",
+        "optionalValuesJson": "[\"DP1,DP2, #$%, DP24#\"]"
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/dynamicParameters/1",
+        "id": 1,
+        "displayName": "Podman-1p-dyanamic-parameter-001",
+        "parameterType": "String",
+        "defaultValue": "dynamic parameter 001",
+        "optionalValuesJson": "[]"
+    }
+]
