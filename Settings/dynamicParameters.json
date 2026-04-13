@@ -1,0 +1,25 @@
+[
+    {
+        "id": 4,
+        "name": "podman-1p-dynamic-parameter-new",
+        "type": 0,
+        "defaultValue": "#dp-009",
+        "optionalValues": []
+    },
+    {
+        "id": 5,
+        "name": "Podman-1p-dyanamic-parameter-002",
+        "type": 1,
+        "defaultValue": "DP1,DP2, #$%, DP24#",
+        "optionalValues": [
+            "DP1,DP2, #$%, DP24#"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Podman-1p-dyanamic-parameter-001",
+        "type": 0,
+        "defaultValue": "dynamic parameter 001",
+        "optionalValues": []
+    }
+]
