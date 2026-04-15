@@ -1,0 +1,28 @@
+[
+    {
+        "value": "phishing email detector",
+        "name": "podman-1p-case-tag-101",
+        "propertyName": "Entity.Environment",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 2,
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1776250577696,
+        "modificationTimeUnixTimeInMs": 1776250577696
+    },
+    {
+        "value": "phishing email detector",
+        "name": "podman-1p-case-tag-102",
+        "propertyName": "Entity.Environment",
+        "priority": 2,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 0,
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1776250601059,
+        "modificationTimeUnixTimeInMs": 1776250601059
+    }
+]
