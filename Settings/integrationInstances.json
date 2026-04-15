@@ -1,0 +1,452 @@
+[
+    {
+        "environment": "Podman-1p-env-001",
+        "integrationIdentifier": "Zscaler",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "Zscaler_1",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://admin.zscalertwo.net/",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 139,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": "The base URL of the Zscaler instance.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Login ID",
+                    "value": "ushukla@siempify.zslogin.net",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 140,
+                    "propertyDisplayName": "Login ID",
+                    "propertyDescription": "The username or email address associated with the Zscaler administrator account used for authentication. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 141,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": "The unique API key generated in the Zscaler portal to authorize API requests. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Password",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 142,
+                    "propertyDisplayName": "Password",
+                    "propertyDescription": "The password associated with the Zscaler administrator account used for authentication. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Client ID",
+                    "value": "iqbotidmmg7ph",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 143,
+                    "propertyDisplayName": "Client ID",
+                    "propertyDescription": "The unique identifier for the OAuth 2.0 client used for authentication using the ZSLogin service. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Client Secret",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 144,
+                    "propertyDisplayName": "Client Secret",
+                    "propertyDescription": "The secret key associated with the client ID used to authenticate the OAuth 2.0 client. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Login API Root",
+                    "value": "https://siempify.zslogin.net",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 145,
+                    "propertyDisplayName": "Login API Root",
+                    "propertyDescription": "The base URL for the ZSLogin service used for centralized identity and access management. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 146,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If selected, the integration validates the SSL certificate when connecting to the Zscaler server.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "ec4fe67f-532c-4259-bf25-5c87021e6059"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "Zscaler",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://admin.zscalertwo.net",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 75,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": "The base URL of the Zscaler instance.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Login ID",
+                    "value": "ushukla@siempify.zslogin.net",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 76,
+                    "propertyDisplayName": "Login ID",
+                    "propertyDescription": "The username or email address associated with the Zscaler administrator account used for authentication. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 77,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": "The unique API key generated in the Zscaler portal to authorize API requests. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Password",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 78,
+                    "propertyDisplayName": "Password",
+                    "propertyDescription": "The password associated with the Zscaler administrator account used for authentication. This parameter is mandatory for legacy authentication. If both legacy and OAuth 2.0 credentials are provided, OAuth 2.0 takes precedence.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Client ID",
+                    "value": "iqbotidmmg7ph",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 79,
+                    "propertyDisplayName": "Client ID",
+                    "propertyDescription": "The unique identifier for the OAuth 2.0 client used for authentication using the ZSLogin service. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Client Secret",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 80,
+                    "propertyDisplayName": "Client Secret",
+                    "propertyDescription": "The secret key associated with the client ID used to authenticate the OAuth 2.0 client. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Login API Root",
+                    "value": "https://siempify.zslogin.net",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": false,
+                    "id": 81,
+                    "propertyDisplayName": "Login API Root",
+                    "propertyDescription": "The base URL for the ZSLogin service used for centralized identity and access management. This parameter is mandatory for OAuth 2.0 configuration and takes precedence over legacy authentication.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 82,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If selected, the integration validates the SSL certificate when connecting to the Zscaler server.",
+                    "integrationIdentifier": "Zscaler",
+                    "integrationInstance": "c8fab5b0-f235-483e-80b1-1486ffb01021"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "PaloAltoCortexXDR",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 69,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "88e3bfaa-7dd4-460d-87f4-42b2007a22f5"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": true,
+                    "id": 70,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "88e3bfaa-7dd4-460d-87f4-42b2007a22f5"
+                },
+                {
+                    "propertyName": "Api Key ID",
+                    "value": "56",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Int",
+                    "isMandatory": true,
+                    "id": 71,
+                    "propertyDisplayName": "Api Key ID",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "88e3bfaa-7dd4-460d-87f4-42b2007a22f5"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 72,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "88e3bfaa-7dd4-460d-87f4-42b2007a22f5"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "GoogleChronicle",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "UI Root",
+                    "value": "https://{instance}.chronicle.security",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 0,
+                    "propertyDisplayName": "UI Root",
+                    "propertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
+                    "integrationIdentifier": "GoogleChronicle",
+                    "integrationInstance": "76fb61c5-42c6-46aa-a898-672323488a6b"
+                },
+                {
+                    "propertyName": "API Root",
+                    "value": "https://backstory.googleapis.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 0,
+                    "propertyDisplayName": "API Root",
+                    "propertyDescription": "API root of the Chronicle instance.",
+                    "integrationIdentifier": "GoogleChronicle",
+                    "integrationInstance": "76fb61c5-42c6-46aa-a898-672323488a6b"
+                },
+                {
+                    "propertyName": "User's Service Account",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 0,
+                    "propertyDisplayName": "User's Service Account",
+                    "propertyDescription": "Service Account that is used for authentication. You can configure either this parameter or the Workload Identity Email parameter. If both this and Workload Identity Email not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "integrationIdentifier": "GoogleChronicle",
+                    "integrationInstance": "76fb61c5-42c6-46aa-a898-672323488a6b"
+                },
+                {
+                    "propertyName": "Workload Identity Email",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": false,
+                    "id": 0,
+                    "propertyDisplayName": "Workload Identity Email",
+                    "propertyDescription": "The client email address of your workload identity. You can configure either this parameter or the User's Service Account parameter. To impersonate service accounts with the workload identity email address, grant the Service Account Token Creator role to your service account. If both this and User's Service Account not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "integrationIdentifier": "GoogleChronicle",
+                    "integrationInstance": "76fb61c5-42c6-46aa-a898-672323488a6b"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "true",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 0,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
+                    "integrationIdentifier": "GoogleChronicle",
+                    "integrationInstance": "76fb61c5-42c6-46aa-a898-672323488a6b"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "GoogleSecOpsAiAgents",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System All Environments Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "True",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 27,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection.",
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "945ef975-14af-4c1d-a6c8-05ecb25f8c7a"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "PaloAltoCortexXDR",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "PaloAltoCortexXDR_1",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 113,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "17037bd1-5826-438b-90af-8bcf531e5764"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": true,
+                    "id": 114,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "17037bd1-5826-438b-90af-8bcf531e5764"
+                },
+                {
+                    "propertyName": "Api Key ID",
+                    "value": "56",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Int",
+                    "isMandatory": true,
+                    "id": 115,
+                    "propertyDisplayName": "Api Key ID",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "17037bd1-5826-438b-90af-8bcf531e5764"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 116,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "17037bd1-5826-438b-90af-8bcf531e5764"
+                }
+            ]
+        }
+    }
+]
