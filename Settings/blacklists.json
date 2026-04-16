@@ -1,1 +1,57 @@
-{}
+{
+    "soar_block_entities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "blacklist002-podman",
+            "entityType": "APPLICATION",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"Default Environment\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "blacklist001-podman",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Podman-1p-env-002\",\"Podman-1p-env-001\",\"Default Environment\"]"
+        }
+    ],
+    "items": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "blacklist002-podman",
+            "entityType": "APPLICATION",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"Default Environment\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "blacklist001-podman",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Podman-1p-env-002\",\"Podman-1p-env-001\",\"Default Environment\"]"
+        }
+    ],
+    "soarBlockEntities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "blacklist002-podman",
+            "entityType": "APPLICATION",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"Default Environment\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "blacklist001-podman",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Podman-1p-env-002\",\"Podman-1p-env-001\",\"Default Environment\"]"
+        }
+    ],
+    "totalSize": 2
+}
