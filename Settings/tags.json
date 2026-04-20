@@ -1,0 +1,54 @@
+[
+    {
+        "value": "phishing email detector",
+        "name": "Podman-upgraded legacy tag 001",
+        "propertyName": "Entity.Environment",
+        "priority": 2,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 2,
+        "id": 8,
+        "creationTimeUnixTimeInMs": 1776425357780,
+        "modificationTimeUnixTimeInMs": 1776425357780
+    },
+    {
+        "value": "phishing email detector",
+        "name": "Podman-upgraded legacy tag 002",
+        "propertyName": "Entity.Alert_Id",
+        "priority": 2,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 0,
+        "id": 10,
+        "creationTimeUnixTimeInMs": 1776425357910,
+        "modificationTimeUnixTimeInMs": 1776425357910
+    },
+    {
+        "value": "phishing email detector",
+        "name": "Podman-upgraded legacy tag 003",
+        "propertyName": "Entity.Type",
+        "priority": 1,
+        "isPotentialCaseName": true,
+        "environments": [],
+        "type": 3,
+        "compareType": 1,
+        "id": 12,
+        "creationTimeUnixTimeInMs": 1776425357972,
+        "modificationTimeUnixTimeInMs": 1776425357972
+    },
+    {
+        "value": "phishing email detector",
+        "name": "Podman-upgraded legacy tag 004",
+        "propertyName": "Entity.IsArtifact",
+        "priority": 5,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 4,
+        "id": 14,
+        "creationTimeUnixTimeInMs": 1776425358041,
+        "modificationTimeUnixTimeInMs": 1776425358041
+    }
+]
