@@ -1,0 +1,29 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/13",
+        "id": 13,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "SpecificAlerts",
+        "slaTypeValue": "[\"Phishing email detector\",\"Access Disabled Accounts\"]",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Days",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Days",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/12",
+        "id": 12,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Assessment\"]",
+        "slaPeriod": 7896.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 2.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "*"
+        ]
+    }
+]
