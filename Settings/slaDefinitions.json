@@ -1,0 +1,83 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/22",
+        "id": 22,
+        "slaType": "AlertPriority",
+        "slaTypeValue": "[\"Medium\"]",
+        "slaPeriod": 10.0,
+        "slaPeriodTimeUnit": "Hours",
+        "criticalSlaPeriod": 9.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "podman-upgraded-legacy-001",
+            "podman-upgraded-legacy-002",
+            "new-existing001",
+            "#$Z5x67c8-Podman"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/21",
+        "id": 21,
+        "slaType": "CasePriority",
+        "slaTypeValue": "[\"Low\"]",
+        "slaPeriod": 20.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 11.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment",
+            "#$Z5x67c8-Podman",
+            "new-existing001",
+            "podman-upgraded-legacy-002",
+            "podman-upgraded-legacy-001"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/20",
+        "id": 20,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"second manually added \",\"Triage\",\"Assessment\",\"Investigation\",\"Incident\",\"Improvement\",\"Research\",\"manually-added\"]",
+        "slaPeriod": 20.0,
+        "slaPeriodTimeUnit": "Days",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Days",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/19",
+        "id": 19,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "SpecificAlerts",
+        "slaTypeValue": "[\"Phishing email detector\",\"Access Disabled Accounts\"]",
+        "slaPeriod": 9.0,
+        "slaPeriodTimeUnit": "Hours",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "#$Z5x67c8-Podman",
+            "Default Environment",
+            "new-existing001",
+            "podman-upgraded-legacy-001"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/18",
+        "id": 18,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 11.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 10.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment",
+            "#$Z5x67c8-Podman",
+            "new-existing001",
+            "podman-upgraded-legacy-002",
+            "podman-upgraded-legacy-001"
+        ]
+    }
+]
