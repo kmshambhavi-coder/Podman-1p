@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "name": "Default Environment",
+        "description": "Default Environment",
+        "contactName": null,
+        "contactEmails": "",
+        "contactEmailsList": null,
+        "contactPhone": null,
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [],
+        "properties": {},
+        "isSystem": true,
+        "aliases": [],
+        "instanceUrl": null,
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "Staging-upgraded-legacy-001",
+        "description": "Staging-upgraded-legacy-001",
+        "contactName": "staging001",
+        "contactEmails": "staging001@gmail.com",
+        "contactEmailsList": null,
+        "contactPhone": "0987654345678",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": "",
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [
+            "teststaging"
+        ],
+        "instanceUrl": "",
+        "dataAccessScopes": []
+    }
+]
