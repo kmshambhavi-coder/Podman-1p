@@ -1,0 +1,15 @@
+[
+    {
+        "entityIdentifier": "custom list 001 #$",
+        "category": "CP#001",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment",
+            "staging-upgrade legacy 001",
+            "testevn 001"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1777461159700,
+        "modificationTimeUnixTimeInMs": 1777461159700
+    }
+]
