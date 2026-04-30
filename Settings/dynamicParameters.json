@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "dp001 - #$%",
+        "type": 0,
+        "defaultValue": "#$%^",
+        "optionalValues": []
+    },
+    {
+        "id": 2,
+        "name": "DP001 _ alpha",
+        "type": 1,
+        "defaultValue": "LI001@, li002#, li89,listdp",
+        "optionalValues": [
+            "LI001@, li002#, li89,listdp"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "DP003-fgh",
+        "type": 1,
+        "defaultValue": "dfghjk,2345678,@#$%^&,??",
+        "optionalValues": [
+            "dfghjk,2345678,@#$%^&,??",
+            "DFGHJDFGHJ"
+        ]
+    }
+]
