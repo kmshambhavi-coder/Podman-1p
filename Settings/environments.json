@@ -1,6 +1,56 @@
 [
     {
         "id": 0,
+        "name": "@#$%^%$#@",
+        "description": "test",
+        "contactName": "test002",
+        "contactEmails": "test002@gmail.com",
+        "contactEmailsList": null,
+        "contactPhone": "123456789",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": "",
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [
+            "000234"
+        ],
+        "instanceUrl": "",
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "123444alpanumeric",
+        "description": "123444alpanumeric",
+        "contactName": "testcontect",
+        "contactEmails": "test001@domain.com",
+        "contactEmailsList": null,
+        "contactPhone": "34567887654",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": "",
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [],
+        "instanceUrl": "https://to19ut36uw.backstory-staging.chronicle.security/",
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
         "name": "Default Environment",
         "description": "Default Environment",
         "contactName": null,
@@ -16,18 +66,7 @@
         "base64Image": null,
         "forDBMigration": false,
         "environmentAllowedForAllUsers": false,
-        "dynamicParameters": [
-            {
-                "value": "DP-staging-upgraded001 #$%^",
-                "dynamicParameterId": 1,
-                "environmentId": 1
-            },
-            {
-                "value": "test1 , test2, test3, test4",
-                "dynamicParameterId": 2,
-                "environmentId": 1
-            }
-        ],
+        "dynamicParameters": [],
         "properties": {},
         "isSystem": true,
         "aliases": [],
@@ -36,12 +75,12 @@
     },
     {
         "id": 0,
-        "name": "staging-upgrade legacy 001",
-        "description": "staging-upgrade legacy 001",
-        "contactName": "testenv",
-        "contactEmails": "testenv@gmail.com",
+        "name": "staging-UP legacy -001 #",
+        "description": "staging-UP legacy -001 #",
+        "contactName": "staging001",
+        "contactEmails": "staging001@domain.com",
         "contactEmailsList": null,
-        "contactPhone": "345678",
+        "contactPhone": "4567654567",
         "allowedActions": null,
         "remediationDurationInDays": 0,
         "shouldAllowRemediationActions": false,
@@ -51,57 +90,13 @@
         "base64Image": "",
         "forDBMigration": false,
         "environmentAllowedForAllUsers": false,
-        "dynamicParameters": [
-            {
-                "value": "DP-staging-upgraded001 #$%^",
-                "dynamicParameterId": 1,
-                "environmentId": 3
-            },
-            {
-                "value": "test1 , test2, test3, test4",
-                "dynamicParameterId": 2,
-                "environmentId": 3
-            }
-        ],
+        "dynamicParameters": [],
         "properties": {},
         "isSystem": false,
-        "aliases": [],
-        "instanceUrl": "",
-        "dataAccessScopes": []
-    },
-    {
-        "id": 0,
-        "name": "testevn 001",
-        "description": "testevn 001",
-        "contactName": "#$%test",
-        "contactEmails": "email@domain.com",
-        "contactEmailsList": null,
-        "contactPhone": "3456789678",
-        "allowedActions": null,
-        "remediationDurationInDays": 0,
-        "shouldAllowRemediationActions": false,
-        "shouldNotifyOnRemediationActions": false,
-        "retentionDurationInMonths": 3,
-        "retentionDurationInMonthsInternal": null,
-        "base64Image": "",
-        "forDBMigration": false,
-        "environmentAllowedForAllUsers": false,
-        "dynamicParameters": [
-            {
-                "value": "DP-staging-upgraded001 #$%^",
-                "dynamicParameterId": 1,
-                "environmentId": 4
-            },
-            {
-                "value": "test1 , test2, test3, test4",
-                "dynamicParameterId": 2,
-                "environmentId": 4
-            }
+        "aliases": [
+            "staging001"
         ],
-        "properties": {},
-        "isSystem": false,
-        "aliases": [],
-        "instanceUrl": "https://vrm44slp6l.backstory-staging.chronicle.security/",
+        "instanceUrl": "https://to19ut36uw.backstory-staging.chronicle.security/",
         "dataAccessScopes": []
     }
 ]
