@@ -1,15 +1,39 @@
 [
     {
-        "entityIdentifier": "custom list 001 #$",
-        "category": "CP#001",
+        "entityIdentifier": "Custom list firsst",
+        "category": "CT - 001",
         "forDBMigration": false,
         "environments": [
             "Default Environment",
-            "staging-upgrade legacy 001",
-            "testevn 001"
+            "staging-UP legacy -001 #",
+            "123444alpanumeric",
+            "@#$%^%$#@"
         ],
         "id": 1,
-        "creationTimeUnixTimeInMs": 1777461159700,
-        "modificationTimeUnixTimeInMs": 1777461159700
+        "creationTimeUnixTimeInMs": 1777544704053,
+        "modificationTimeUnixTimeInMs": 1777544704053
+    },
+    {
+        "entityIdentifier": "@#$%^custom",
+        "category": "CT - 002",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment",
+            "staging-UP legacy -001 #"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1777544727808,
+        "modificationTimeUnixTimeInMs": 1777544727808
+    },
+    {
+        "entityIdentifier": "AAAACustom$01",
+        "category": "CT - 003",
+        "forDBMigration": false,
+        "environments": [
+            "@#$%^%$#@"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1777544767267,
+        "modificationTimeUnixTimeInMs": 1777544767267
     }
 ]
